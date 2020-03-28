@@ -24,9 +24,9 @@ The 2 parts of this app are the mobile app and the backend server -
 * [Web Server](https://github.com/anmolsahoo25/covid19-dtrack-api)
 
 
-<small>The terms are used loosely here to define intent. Every effort
+<sub><sup>The terms are used loosely here to define intent. Every effort
 will be made to adhere to the aims, but short of a formal-proof, 
-guarantees will not be made</small>
+guarantees will not be made</sup></sub>
 
 The approach
 ---
