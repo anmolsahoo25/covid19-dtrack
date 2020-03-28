@@ -25,3 +25,16 @@ Traditional apps will send all user data to a central storage and compute
 cases and incidences on the centralized server itself. 
 
 <img src="docs/assets/trad_app.png" height="512px" />
+
+But this has a lot of problems,
+
+1. The central database is storing a lot of data it does not need.
+In the event of a data-breach, a lot of this information is exposed.
+2. The users do not control their data once they hand it over, it
+can be used for any other purpose. 
+
+A better approach would be to store the data locally. Only the bare
+minimum required information is sent to a central database to inform
+the other users.
+
+<img src="docs/assets/our_app.png" height="512px" />
