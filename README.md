@@ -38,3 +38,21 @@ minimum required information is sent to a central database to inform
 the other users.
 
 <img src="docs/assets/our_app.png" height="512px" />
+
+How does it work
+---
+After having discussed the big picture, let's have a look at how the 
+app works,
+
+* The front-end mobile app stores necessary information for all
+users locally, such as
+  + 1.1 - 
+* Once a person is diagnosed, a certified authority uploads the
+information to a central database for others to download
+* The other users regularly update this database and cross-verify
+if they have been in the vicinity of the suspected cases
+
+
+The app does not collect or publish any personally identifiable
+information for normal users. Upon diagnosis of a person, we push the
+
