@@ -24,9 +24,10 @@ The 2 parts of this app are the mobile app and the backend server -
 * [Web Server](https://github.com/anmolsahoo25/covid19-dtrack-api)
 
 
-<sub>The terms are used loosely here to define intent. Every effort
+<small>The terms are used loosely here to define intent. Every effort
 will be made to adhere to the aims, but short of a formal-proof, 
-guarantees will not be made</sub>
+guarantees will not be made</small>
+
 The approach
 ---
 Traditional apps will send all user data to a central storage and compute
