@@ -19,6 +19,14 @@ of the user
 4. **Safety** - only the bare minimum data required is shared, with proper
 data-deletion and revocation policies
 
+The 2 parts of this app are the mobile app and the backend server -
+* [Mobile App](https://github.com/anmolsahoo25/covid19-dtrack-app)
+* [Web Server](https://github.com/anmolsahoo25/covid19-dtrack-api)
+
+
+<sub>The terms are used loosely here to define intent. Every effort
+will be made to adhere to the aims, but short of a formal-proof, 
+guarantees will not be made</sub>
 The approach
 ---
 Traditional apps will send all user data to a central storage and compute
@@ -46,13 +54,27 @@ app works,
 
 * The front-end mobile app stores necessary information for all
 users locally, such as
-  + 1.1 - 
+  + Bluetooth devices seen
+  + Wifi routers seen
+  + GPS history
 * Once a person is diagnosed, a certified authority uploads the
 information to a central database for others to download
 * The other users regularly update this database and cross-verify
 if they have been in the vicinity of the suspected cases
 
-
 The app does not collect or publish any personally identifiable
-information for normal users. Upon diagnosis of a person, we push the
+information for normal users. Upon diagnosis of a person, we push all
+the devices seen by the diagnosed person, for other users to verify.
+Even with this information, it should be difficult to identify the
+user, without significant effort.
 
+Advanced features
+---
+Here are some key-points, that we are considering to further enhance
+the features of this app - 
+1. End-to-end encryption - Data is end-to-end encrypted to ensure that
+malicious parties can't decipher the data even if compromised
+2. Differential privacy - Add random noise to aggregate stats to throw
+off identification efforts
+3. Revocation policies - Use keys supplied by diagnosed people to lock
+their data and revoke permissions if they choose so
