@@ -24,4 +24,4 @@ The approach
 Traditional apps will send all user data to a central storage and compute
 cases and incidences on the centralized server itself. 
 
-![image of an app with people sending data to cloud](docs/assets/trad_app.png)
+![image of an app with people sending data to cloud](docs/assets/trad_app.png =512x)
