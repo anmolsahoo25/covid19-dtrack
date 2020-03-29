@@ -48,6 +48,9 @@ the other users.
 
 <img src="docs/assets/our_app.png" height="512px" />
 
+Thus, even in the case of a breach, the information obtained is minimal and
+cannot be used to glean identifiable information.
+
 How does it work
 ---
 After having discussed the big picture, let's have a look at how the 
