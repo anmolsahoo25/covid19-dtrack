@@ -79,3 +79,4 @@ malicious parties can't decipher the data even if compromised
 off identification efforts
 3. Revocation policies - Use keys supplied by diagnosed people to lock
 their data and revoke permissions if they choose so
+4. Hashing - Use one-way hashing to make all data non-identifiable
